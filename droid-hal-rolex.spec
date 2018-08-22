@@ -10,21 +10,16 @@
 %define installable_zip 1
 
 %define straggler_files \
-   /bugreports \
-   /cache \
-   /d \
-   /nonplat_file_contexts \
-   /nonplat_hwservice_contexts \
-   /nonplat_property_contexts \
-   /nonplat_seapp_contexts \
-   /nonplat_service_contexts \
-   /plat_file_contexts \
-   /plat_hwservice_contexts \
-   /plat_property_contexts \
-   /plat_seapp_contexts \
-   /plat_service_contexts \
-   /sdcard \
-   /vndservice_contexts
+   /usr/bin/test_nfc\
+   /usr/lib/libnfc_ndef_nxp.so\
+   /usr/lib/libnfc_ndef_nxp.so.1\
+   /usr/lib/libnfc_ndef_nxp.so.1.0.0\
+   /usr/lib/libnfc_nxp.so\
+   /usr/lib/libnfc_nxp.so.1\
+   /usr/lib/libnfc_nxp.so.1.0.0\
+   /usr/lib/pkgconfig/libnfc_ndef_nxp.pc\
+   /usr/lib/pkgconfig/libnfc_nxp.pc\
+   %{nil}
 
 %include rpm/dhd/droid-hal-device.inc
 
